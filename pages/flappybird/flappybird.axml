@@ -1,0 +1,15 @@
+<!--pages/flappybird/flappybird.wxml-->
+<view class="v-main">
+ 
+       
+    <view class="v-fb"  onTap="onClickScreen">
+       <canvas id="canvas" style="{{canvas_fb_style}}" class="canvas-fb"/>
+    </view>
+
+    <view class="v-start" style="{{style_start}}">
+        <image src="{{src_img_title}}" class="img_title"></image>
+        <image src="/images/flappybird/button_play.png"  class="img-start"  onTap="start_game"></image>
+    </view>
+
+    <view class="v-number">{{bird_number}}</view>
+</view>

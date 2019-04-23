@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/flappybird/flappybird",
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}
